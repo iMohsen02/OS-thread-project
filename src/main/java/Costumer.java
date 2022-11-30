@@ -1,5 +1,3 @@
-import java.time.Clock;
-import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.util.Random;
 
@@ -42,12 +40,12 @@ public class Costumer extends Thread {
 
     @Override
     public void run() {
-        System.out.println(FOREGROUND_BRIGHT_BLUE96 + "Thread" + FOREGROUND_RED91 + "["+ this.name +"] - " + FOREGROUND_BRIGHT_BLUE96 + "Costumer " + RESET_COLOR + "start");
+//        System.out.println(FOREGROUND_BRIGHT_BLUE96 + "Thread" + FOREGROUND_RED91 + "["+ this.name +"] - " + FOREGROUND_BRIGHT_BLUE96 + "Costumer " + RESET_COLOR + "start");
 
-        startService();
+//        startService();
         doPool();
 
-        System.out.println(FOREGROUND_BRIGHT_BLUE96 + "Thread" + FOREGROUND_RED91 + "["+ this.name +"] - " + FOREGROUND_BRIGHT_BLUE96 + "Costumer " + RESET_COLOR + "end");
+//        System.out.println(FOREGROUND_BRIGHT_BLUE96 + "Thread" + FOREGROUND_RED91 + "["+ this.name +"] - " + FOREGROUND_BRIGHT_BLUE96 + "Costumer " + RESET_COLOR + "end");
     }
 
     public void doTasks() {
@@ -62,10 +60,10 @@ public class Costumer extends Thread {
 
     public void doPool() {
         if (this.wantToPoll) {
-            doSleep("start to poll", Delays.POOL.delay, "end of poll time...");
-            doSleep("start to criticism", Delays.CRITICISM.delay, "end of call");
+            doSleep(this.name + FOREGROUND_BRIGHT_GREEN + " start to poll" + RESET_COLOR, Delays.POOL.delay,  this.name + FOREGROUND_BRIGHT_GREEN + " end of poll time..." + RESET_COLOR);
+            doSleep(this.name + FOREGROUND_BRIGHT_GREEN + " start to criticism" + RESET_COLOR, Delays.CRITICISM.delay, this.name + FOREGROUND_BRIGHT_GREEN + " end of call" + RESET_COLOR);
         } else
-            doSleep("start to poll", Delays.POOL.delay, "end of pool");
+            doSleep(this.name + FOREGROUND_BRIGHT_GREEN + " start to poll" + RESET_COLOR, Delays.POOL.delay,  this.name + FOREGROUND_BRIGHT_GREEN + " end of call" + RESET_COLOR);
     }
 
     private void doSleep(String startText, long sleepTime, String endText) {
@@ -82,6 +80,10 @@ public class Costumer extends Thread {
 
     @Override
     public String toString() {
-        return "costumer { " + this.name + "\tisWeakSignal: " +  this.isSignalWeak +"\twantToPool: " + this.wantToPoll + "}";
+        return FOREGROUND_BLUE94 + "costumer { name: "+ FOREGROUND_RED91 + this.name + FOREGROUND_BLUE94 + "\tisWeakSignal: " + FOREGROUND_RED91 + this.isSignalWeak + FOREGROUND_BLUE94 +"\twantToPool: " + FOREGROUND_RED91 + this.wantToPoll + FOREGROUND_BLUE94 + "\tService:" + FOREGROUND_RED91 + this.service + FOREGROUND_BLUE94 + " }" + RESET_COLOR;
+    }
+
+    public InternetSupportCenter.Services getService() {
+        return service;
     }
 }

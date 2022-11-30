@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d077b076-a49a-4e19-92a5-1ccb67948e03" name="Changes" comment="Initial Project - set project and add colors">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Costumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InternetSupportCenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Supporter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CostumerTest.java" afterDir="false" />
+    <list default="true" id="d077b076-a49a-4e19-92a5-1ccb67948e03" name="Changes" comment="Costumer.java added to the project">
+      <change afterPath="$PROJECT_DIR$/src/main/java/FileManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Costumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Costumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InternetSupportCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InternetSupportCenter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Supporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Supporter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -46,7 +46,7 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "D:/Workshop/Programming Project/Java/OS-Project-Internet-support-center/src/main/java"
+    "last_opened_file_path": "D:/Workshop/Programming Project/Java/JAVA Projects/Advanced Java programming/TimeTable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -94,7 +94,15 @@
       <option name="presentableId" value="Default" />
       <updated>1669199995888</updated>
       <workItem from="1669199998520" duration="6572000" />
-      <workItem from="1669316879430" duration="4084000" />
+      <workItem from="1669316879430" duration="5799000" />
+      <workItem from="1669360023825" duration="1249000" />
+      <workItem from="1669366889562" duration="5541000" />
+      <workItem from="1669455284038" duration="4627000" />
+      <workItem from="1669526254066" duration="878000" />
+      <workItem from="1669650945879" duration="1462000" />
+      <workItem from="1669671279055" duration="2461000" />
+      <workItem from="1669711954552" duration="1279000" />
+      <workItem from="1669794710163" duration="2402000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Project - set project and add colors">
       <created>1669200306376</created>
@@ -103,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669200306377</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Costumer.java added to the project">
+      <created>1669356857171</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669356857171</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +137,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Project - set project and add colors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Project - set project and add colors" />
+    <MESSAGE value="Costumer.java added to the project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Costumer.java added to the project" />
   </component>
 </project>
