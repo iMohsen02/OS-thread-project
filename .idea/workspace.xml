@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d077b076-a49a-4e19-92a5-1ccb67948e03" name="Changes" comment="Costumer.java added to the project">
-      <change afterPath="$PROJECT_DIR$/src/main/java/FileManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data.txt" afterDir="false" />
+    <list default="true" id="d077b076-a49a-4e19-92a5-1ccb67948e03" name="Changes" comment="project done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Costumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Costumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FileManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/InternetSupportCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InternetSupportCenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Supporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Supporter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,16 +37,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "D:/Workshop/Programming Project/Java/JAVA Projects/Advanced Java programming/TimeTable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Workshop/Programming Project/Java/JAVA Projects/Advanced Java programming/TimeTable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Workshop\Programming Project\Java\OS-Project-Internet-support-center\src\main\java" />
@@ -103,6 +101,8 @@
       <workItem from="1669671279055" duration="2461000" />
       <workItem from="1669711954552" duration="1279000" />
       <workItem from="1669794710163" duration="2402000" />
+      <workItem from="1669839809108" duration="1754000" />
+      <workItem from="1669980006747" duration="7256000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Project - set project and add colors">
       <created>1669200306376</created>
@@ -118,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669356857171</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="project done">
+      <created>1669839939369</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669839939369</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +145,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Project - set project and add colors" />
     <MESSAGE value="Costumer.java added to the project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Costumer.java added to the project" />
+    <MESSAGE value="project done" />
+    <option name="LAST_COMMIT_MESSAGE" value="project done" />
   </component>
 </project>

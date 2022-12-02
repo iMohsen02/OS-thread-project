@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * <h1>File manager</h1>
- * <p>file manager class helps to read from data file to creat {@link Supporter supporters} ab </p>
+ * <p>file manager class helps to read from data file to creat {@link Supporter supporters} </p>
  */
 public class FileManager {
     /**
@@ -27,6 +27,11 @@ public class FileManager {
      */
     Scanner scanner;
 
+    /**
+     * Initialize the required variables and set the path.
+     * @param path path of data file
+     * @throws FileNotFoundException if file can't be found exception will throw
+     */
     public FileManager(String path) throws FileNotFoundException {
         this.path = path;
         this.file = new File(this.path);
